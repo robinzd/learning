@@ -1,0 +1,124 @@
+[
+    {
+        "s.no": "1",
+        "name": "robin",
+        "date of birth": "05/06/1997",
+        "age": "24",
+        "address": "trichy",
+        "email id": "rickmathews2@gmail.com",
+        "qualifications": "b.e mechanical engineering",
+        "holidays": "7 days"
+    },
+    {
+        "s.no": "2",
+        "name": "divya",
+        "date of birth": "14/06/1999",
+        "age": "21",
+        "address": "trichy",
+        "email id": "none",
+        "qualifications": "b.e mechanical engineering",
+        "holidays": "7 days"
+    },
+    {
+        "s.no": "3",
+        "name": "dinesh",
+        "date of birth": "06/07/1970",
+        "age": "48",
+        "address": "trichy",
+        "email id": "dinesh45@gmail.com",
+        "qualifications": "b.e mechanical engineering",
+        "holidays": "10 days"
+    },
+    {
+        "s.no": "4",
+        "name": "divyesh",
+        "date of birth": "09/10/2003",
+        "age": "18",
+        "address": "chennai",
+        "email id": "05divyesh@gmail.com",
+        "qualifications": "b.e civil engineering",
+        "holidays": "2 days"
+    },
+    {
+        "s.no": "5",
+        "name": "janani",
+        "date of birth": "05/06/1997",
+        "age": "24",
+        "address": "madurai",
+        "email id": "janani23@gmail.com",
+        "qualifications": "b.e mechanical engineering",
+        "holidays": "13 days"
+    },
+    {
+        "s.no": "6",
+        "name": "angel",
+        "date of birth": "01/11/1996",
+        "age": "25",
+        "address": "trichy",
+        "email id": "angeleeda26@gmail.com",
+        "qualifications": "b.com",
+        "holidays": "12 days"
+    },
+    {
+        "s.no": "7",
+        "name": "anu",
+        "date of birth": "26/03/2002",
+        "age": "20",
+        "address": "trichy",
+        "email id": "anu.selva3@gmail.com",
+        "qualifications": "b.e mechanical engineering",
+        "holidays": "7 days"
+    },
+    {
+        "s.no": "8",
+        "name": "aswinal",
+        "date of birth": "10/10/2004",
+        "age": "16",
+        "address": "trichy",
+        "email id": "aswinalchristy@gmail.com",
+        "qualifications": "bca",
+        "holidays": "20 days"
+    },
+    {
+        "s.no": "9",
+        "name": "regu",
+        "date of birth": "10/12/1997",
+        "age": "16",
+        "address": "trichy",
+        "email id": "regu@gmail.com",
+        "qualifications": "bca",
+        "holidays": "2 days"
+    },
+    {
+        "s.no": "10",
+        "name": "aswinal christy",
+        "date of birth": "10/05/1998",
+        "age": "23",
+        "address": "trichy",
+        "email id": "aswinal@gmail.com",
+        "qualifications": "bca",
+        "holidays": "20 days"
+    },
+    {
+        "s.no": "11",
+        "name": "andrews",
+        "date of birth": "11/10/1994",
+        "age": "28",
+        "address": "trichy",
+        "email id": "andrews@gmail.com",
+        "qualifications": "bca",
+        "holidays": "10 days"
+    },
+    {
+        "s.no": "12",
+        "name": "devaki",
+        "date of birth": "08/02/1999",
+        "age": "23",
+        "address": "trichy",
+        "email id": "devakikarthick@gmail.com",
+        "qualifications": "b.com",
+        "holidays": "1 days"
+    }
+]
+
+
