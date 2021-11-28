@@ -1,24 +1,48 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>exercise table</title>
     <link rel="stylesheet" type="text/css" href="./my table.css">
+    <script src="my table.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
-
+   <form id="form" onsubmit="return validateForm()" method="POST">
     <h1 align="center">person details</h1>
-    <div  class="button" align="right">
-    <button>add</button>
-    </div>
+        <div class="addbutton" align="right">
+            <input type="number" id="sno" placeholder="s.no">
+           <input type="text" id="name" placeholder="enter name">
+            <input type="date" id="dob" placeholder="enter date of birth">
+           <input type="number" id="age" placeholder="enter age">
+            <input type="text" id="address" placeholder="enter address">
+            <input type="text" id="emailid" placeholder="enter mail id">
+            <input type="text" id="qualifications" placeholder="enter your qualifications">
+            <input type="text" id="holidays" placeholder="holidays taken">
 
-    <div class="table" >
+        </div>
 
-        <table border="1" align="center" cellpadding="10px">
+        <div align="right">
+            <button onclick="AddPersonDetails();" class="button">add rows</button>
+            <button class="editbutton" onclick="editHtmlTbleSelectedRow()">edit button</button>
+         </form>
+
+        <div class="searchbutton" align="center">
+            <i class="fa fa-search"></i>
+            <input  id="search" type="text" placeholder="search by names......." onkeyup="searchBlog()">
+            
+        </div>
+
+        
+
+    
+        
+<div class="table">
+
+        <table id="tableedit" border="1" align="center" cellpadding="10px">
 
             <tr>
                 <th>s.no</th>
@@ -29,7 +53,9 @@
                 <th>email id</th>
                 <th>qualifications</th>
                 <th>holidays</th>
+           
             </tr>
+
             <tr>
                 <td>1</td>
                 <td>robin</td>
@@ -39,16 +65,18 @@
                 <td>rickmathews2@gmail.com</td>
                 <td>b.e mechanical engineering</td>
                 <td>7 days</td>
+               
             </tr>
             <tr>
                 <td>2</td>
                 <td>divya</td>
-                <td>15/06/1999</td>
+                <td>14/06/1999</td>
                 <td>21</td>
                 <td>trichy</td>
                 <td>none</td>
                 <td>b.e mechanical engineering</td>
                 <td>7 days</td>
+                
             </tr>
             <tr>
                 <td>3</td>
@@ -59,6 +87,7 @@
                 <td>dinesh45@gmail.com</td>
                 <td>b.e mechanical engineering</td>
                 <td>10 days</td>
+               
             </tr>
             <tr>
                 <td>4</td>
@@ -69,6 +98,7 @@
                 <td>05divyesh@gmail.com</td>
                 <td>b.e civil engineering</td>
                 <td>2 days</td>
+              
             </tr>
             <tr>
                 <td>5</td>
@@ -79,6 +109,7 @@
                 <td>janani23@gmail.com</td>
                 <td>b.e mechanical engineering</td>
                 <td>13 days</td>
+               
             </tr>
             <tr>
                 <td>6</td>
@@ -89,6 +120,7 @@
                 <td>angeleeda26@gmail.com</td>
                 <td>b.com</td>
                 <td>12 days</td>
+                
             </tr>
             <tr>
                 <td>7</td>
@@ -99,6 +131,7 @@
                 <td>anu.selva3@gmail.com</td>
                 <td>b.e mechanical engineering</td>
                 <td>7 days</td>
+               
             </tr>
             <tr>
                 <td>8</td>
@@ -109,52 +142,52 @@
                 <td>aswinalchristy@gmail.com</td>
                 <td>bca</td>
                 <td>20 days</td>
+               
             </tr>
             <tr>
-                <td>8</td>
-                <td>aswinal</td>
-                <td>10/10/2004</td>
+                <td>9</td>
+                <td>regu</td>
+                <td>10/12/1997</td>
                 <td>16</td>
                 <td>trichy</td>
-                <td>aswinalchristy@gmail.com</td>
+                <td>regu@gmail.com</td>
                 <td>bca</td>
-                <td>20 days</td>
+                <td>2 days</td>
+                
             </tr>
             <tr>
-                <td>8</td>
-                <td>aswinal</td>
-                <td>10/10/2004</td>
-                <td>16</td>
+                <td>10</td>
+                <td>aswinal christy</td>
+                <td>10/05/1998</td>
+                <td>23</td>
                 <td>trichy</td>
-                <td>aswinalchristy@gmail.com</td>
+                <td>aswinal@gmail.com</td>
                 <td>bca</td>
                 <td>20 days</td>
-            </tr><tr>
-                <td>8</td>
-                <td>aswinal</td>
-                <td>10/10/2004</td>
-                <td>16</td>
-                <td>trichy</td>
-                <td>aswinalchristy@gmail.com</td>
-                <td>bca</td>
-                <td>20 days</td>
+                
             </tr>
             <tr>
-                <td>8</td>
-                <td>aswinal</td>
-                <td>10/10/2004</td>
-                <td>16</td>
+                <td>11</td>
+                <td>andrews</td>
+                <td>11/10/1994</td>
+                <td>28</td>
                 <td>trichy</td>
-                <td>aswinalchristy@gmail.com</td>
+                <td>andrews@gmail.com</td>
                 <td>bca</td>
-                <td>20 days</td>
+                <td>10 days</td>
+               
             </tr>
-
-
-
-
-
-
+            <tr>
+                <td>12</td>
+                <td>devaki</td>
+                <td>08/02/1999</td>
+                <td>23</td>
+                <td>trichy</td>
+                <td>devakikarthick@gmail.com</td>
+                <td>b.com</td>
+                <td>1 days</td>
+                
+            </tr>
 
         </table>
     </div>

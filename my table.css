@@ -8,19 +8,31 @@
     position:sticky;
     top:0;
     font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
 }
 
-.table{
-    width:100%;
+.table {
     height:400px;
     overflow:scroll;
     text-align: center;
     margin-top:15px;
     font-family: 'Roboto', sans-serif;
+    margin-bottom:150px;
+    margin-top: 50px;
+    
 }
 
-.table table{
+
+
+.table table {
     border-collapse: collapse;
+    text-transform: capitalize;
+    width:100%;
+    
+}
+
+.table tr{
+    cursor: pointer;
     
 }
 
@@ -35,29 +47,91 @@
 
 h1{
     background-color: lightskyblue;
-    
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
+    
+
 
 
 .heading h1{
     background-color: lightskyblue;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
 }
 
 
-.button button{
-    background-color:lightgreen;
-    border-radius:10px;
-    border-style: double;
-    cursor: pointer;
-}
 
 .button{
-    padding-right:20px;
+    border-style:double;
+    border-radius: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-right: 10px;
+
+}
+
+.addbutton{
+    display:flex;
+    justify-content:space-between;
+}
+
+
+.addbutton input{
+    background-color:pink;
+    border-radius: 20px;
+    border:none;
+    padding:5px;
+}
+
+.editbutton{
+
+    border-style:double;
+    border-radius: 10px;
+    background-color: lightgreen;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    margin-top: 40px;
+    margin-right: 10px;
+}
+
+
+#search{
+    border: none;
+    border-radius: 70px;
+    width:30%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family:'Roboto', sans-serif; 
+    background-color:limegreen;
+    color:black;
+    margin-top: 10px;
 }
 
 
 
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
